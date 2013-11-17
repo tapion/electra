@@ -1,0 +1,6 @@
+PHY;3B12523568;A;100;Brazo Inyectable;Brazo de 40 cm;
+PHY;3B12523569;A;100;Brazo Inyectable;Brazo de 40 cm;
+PHY;3B12523570;A;100;Brazo Inyectable;Brazo de 40 cm;
+PHY;3B12523571;A;100;Brazo Inyectable;Brazo de 40 cm;
+PHY;3B12523572;A;100;Brazo Inyectable;Brazo de 40 cm;
+PHY;3B12523573;A;100;Brazo Inyectable;Brazo de 40 cm;

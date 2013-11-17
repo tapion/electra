@@ -1,0 +1,9 @@
+DSF;DSF001;Bateria para celular SAMSUNG;Bateria para celular SAMSUNG;Activo;
+DSF;DSF005;Software de Edici—n;Software de Edici—n;Bueno;
+DSF;DSF002;Bateria para celular BalckBerry;;Activo;
+DSF;DSF008;Computador Port‡til;Comuptador marca SONY VAIO de Excelentes prestaciones;Activo;
+3B;GAL123;Nuevo samsung Galaxy ACE;Nuevo samsung Galaxy ACE;Activo;
+DSF;DSF003;Bateria para celular Nokia;;Inactivo;
+ELT;ELT1012;Perno multiusos;Perno multiusos para equipos;Activo;
+XYZ;GNT9901;Memoria 16GB; Permite el almacenamiento de informacion;Activo;
+			

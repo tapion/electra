@@ -1,0 +1,345 @@
+	::selection{ background-color: #E13300; color: white; }
+	::moz-selection{ background-color: #E13300; color: white; }
+	::webkit-selection{ background-color: #E13300; color: white; }
+
+	body {
+		background-color: #fff;
+		margin: 40px;
+		font: 13px/20px normal "lucida sans unicode","lucida grande",sans-serif;	
+		color: #4F5155;
+	}
+
+	textarea {
+	        resize: none;
+	}
+
+	a {
+		color: #003399;
+		background-color: transparent;
+		font-weight: normal;
+	}
+
+	h1 {
+		color: #444;
+		background-color: #F1F1F1;
+		border-bottom: 1px solid #D0D0D0;
+		font-size: 50px;
+		font-weight: normal;
+		margin: 0 0 14px 0;
+		padding: 20px 10px 20px 10px;
+                text-align: center;
+	}
+        
+    h2 {
+		color: #444;
+                font-family: "lucida sans unicode","lucida grande",sans-serif;
+		font-size: 19px;
+                margin: 0 0 3px 0;
+		font-weight: normal;
+		
+	}
+
+	code {
+		font-family: Consolas, Monaco, Courier New, Courier, monospace;
+		font-size: 12px;
+		background-color: #f9f9f9;
+		border: 1px solid #D0D0D0;
+		color: #002166;
+		display: block;
+		margin: 14px 0 14px 0;
+		padding: 12px 10px 12px 10px;
+	}
+
+	#body{
+		margin: 0 5px 0 5px;
+	}
+	
+	table#dataTable{
+	    width:100%;
+	}
+	
+	#dataTable td{ 
+		font-family: "lucida sans unicode","lucida grande",sans-serif;
+	    background-color: #FBFBFB;
+	    padding-top:2px;
+	    padding-bottom:2px;
+	    padding-left:5px;
+	    font-size: 11px;
+	    border-bottom:1px solid #D3D3D3;
+	}
+	
+	#dataTable th{ 
+		background-color: #EEEEEE;
+		font-family: "lucida sans unicode","lucida grande",sans-serif;
+		font-size: 12px;
+		padding: 3px;
+		color: #666666;
+		border: 1px solid #D3D3D3;
+		border-left:0px;
+		border-top:0px;
+		text-align: left;
+	}
+
+	p.tituloSeccion{
+		font-family: "lucida sans unicode","lucida grande",sans-serif;
+		font-size: 19px;
+		text-align: left;
+		color: #0B0B61;
+		border-bottom: 1px solid  #0B0B61;
+		padding: 0 5px 3px 5px;
+		margin: 5px 0 0 0;
+	}
+	
+	.bordeGris{
+	    border-bottom: 1px solid #D3D3D3;
+	    border-top: 1px solid #D3D3D3;
+	    border-left: 1px solid #D3D3D3;
+	    border-right: 1px solid #D3D3D3;
+	}
+	
+	p.footer{
+		text-align: center;
+		font-size: 11px;
+		border-top: 1px solid #D0D0D0;
+		line-height: 32px;
+		padding: 0 10px 0 10px;
+		margin: 20px 0 0 0;
+	}
+        
+        #contenedorPrincipal{
+            display: table; 
+            margin-left: auto; 
+            margin-right: auto;
+            width: 98%; 
+            border: 1px;
+        }
+        
+        #alerts{
+            float: left; 
+            border: 0px solid #D0D0D0;
+            width: 22%;
+            padding: 0px;
+        }
+        
+        #cuerpo{
+            float: right; 
+            border: 1px solid #8C8A8A;
+            padding: 10px 15px 5px 15px;
+            height: auto; 
+            width: 71%;   
+			-webkit-box-shadow: 0 0 8px #0B0B61;
+        	-webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+        }
+	
+	#container{
+		margin: 10px;
+		border: 1px solid #D0D0D0;
+		-webkit-box-shadow: 0 0 8px #D0D0D0;
+	}
+        
+        #menuApp{
+            margin: 10px;
+            border: 1px solid #D0D0D0;
+            height: 25px; 
+            width: 98%;
+        }
+        
+        
+        #menuPrincipal{
+            	margin: 3px;
+		border: 1px solid #D0D0D0;
+		-webkit-box-shadow: 0 0 8px #D0D0D0;
+        }
+        
+        table#loginTable{
+            width: 100%;
+            color: #81848B;
+            padding:2px;
+            margin:0px;
+        }
+        
+        table#userProfile{
+        	width: 100%;
+        	border:1px solid #0B0B61;
+            -webkit-box-shadow: 0 0 8px #0B0B61;
+        	-webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+        }
+        
+        table#homeProfile{
+        	width: 100%;
+        }
+        
+        table#alertProfile{
+        	width: 100%;
+        	border:1px solid #610B0B;
+            -webkit-box-shadow: 0 0 8px #610B0B;
+        	-webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+        }
+        
+        table#accessTable{
+            width: 70%;
+            color: #81848B;
+            padding:15px;
+            margin:0px;
+            background-color: #f9f9f9;
+            border:2px solid #F1F1F1;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+        }
+        
+        #userProfile th{
+        	border-bottom:1px solid #0B0B61;
+        	padding: 0 10px 0 10px;
+            width: 90%;
+            text-align: left;
+            font-weight: bold;
+            font-family: "lucida sans unicode","lucida grande",sans-serif;
+            color: #0B0B61;
+            letter-spacing: -0.4pt;
+            font-size: 12px;
+            
+        }
+        
+        #homeProfile th{
+        	border-bottom:1px solid #555251;
+        	padding: 0 10px 10px 10px;
+            width: 90%;
+            text-align: left;
+            font-weight: bold;
+            font-family: "lucida sans unicode","lucida grande",sans-serif;
+            color: #555251;
+            letter-spacing: -0.4pt;
+            font-size: 20px;
+            
+        }
+        
+        #userProfile td{
+        	padding: 0 5px 0 5px;
+            color: #0B0B61;
+            font-size: 12px;  
+        }
+        
+        #alertProfile th{
+        	border-bottom:1px solid #610B0B;
+        	padding: 0 10px 0 10px;
+            width: 90%;
+            text-align: left;
+            font-weight: bold;
+            font-family: "lucida sans unicode","lucida grande",sans-serif;
+            color: #610B0B;
+            letter-spacing: -0.4pt;
+            font-size: 12px;
+            
+        }
+        
+        
+        
+        #alertProfile td{
+        	padding: 0 5px 0 5px;
+            color: #610B0B;
+            font-size: 12px;  
+        }
+        
+        #loginTable th{ 
+            padding-top:10px;
+            padding-bottom:15px;
+            padding-left: 10px;
+            border-bottom:2px solid #F1F1F1;
+            text-align: left;
+            font-family: "lucida sans unicode","lucida grande",sans-serif;
+            color: #0B0B61;
+            font-size: 40px;
+            letter-spacing: -0.4pt;
+            word-spacing: -1.8pt;
+        }
+        
+        #accessTable th{ 
+            padding-top:2px;
+            padding-bottom:15px;
+            text-align: left;
+            font-family: "lucida sans unicode","lucida grande",sans-serif;
+            font-weight: bold;
+            color: #0B0B61;
+            font-size: 25px;
+            letter-spacing: -0.4pt;
+            word-spacing: -1.8pt;
+        }
+        
+        #accessTable td{ 
+            padding-top:2px;
+            padding-bottom:15px;
+            text-align: left;
+            color: #787373;
+            font-size: 15px;
+            font-family: "lucida sans unicode","lucida grande",sans-serif;
+        }
+        
+        #loginTable td{
+            margin: 40px;
+            color: #4F5155;
+            padding: 4px 4px 4px 4px;
+            font-family: "lucida sans unicode","lucida grande",sans-serif;
+        }
+        
+        .boton{
+        font-size:12px;
+        font-family: "lucida sans unicode","lucida grande",sans-serif;
+        font-weight:normal;
+        color:white;
+        background:#0080FF;
+        border:1px solid #0080FF;
+        width:auto;
+        height:auto;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        }
+       
+        .caja{
+        font-size:11px;
+         font-family: "lucida sans unicode","lucida grande",sans-serif;
+         padding-left: 10px;
+        font-weight:normal;
+        color:black;
+        background:#EFEFE;
+        border:1px solid #0080FF;
+        /* height:15px; */
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        }
+        
+        .cajaLogin{
+        font-size:12px;
+         font-family: "lucida sans unicode","lucida grande",sans-serif;
+         padding-left: 10px;
+        font-weight:normal;
+        color:black;
+        background:#EFEFE;
+        border:1px solid #0080FF;
+        height:25px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        }
+
+		.botonLogin{
+        font-size:12px;
+        font-family: "lucida sans unicode","lucida grande",sans-serif;
+        font-weight:normal;
+        color:white;
+        background:#0080FF;
+        border:1px solid #0080FF;
+        width:auto;
+        height:35px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        }
